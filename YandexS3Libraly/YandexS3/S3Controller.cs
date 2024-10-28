@@ -87,7 +87,7 @@ namespace YandexS3Libraly.YandexS3
                     {
                         BucketName = BucketName,
                         FilePath = filePath,
-                        Key = $"{folderPathInBucket}\\{fileName}"
+                        Key = $"{folderPathInBucket}/{fileName}"
                     };
 
                     PutObjectResponse response = await client.PutObjectAsync(request).ConfigureAwait(false);

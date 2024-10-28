@@ -9,8 +9,9 @@
     <PackAsTool>False</PackAsTool>
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.1.1.3</AssemblyVersion>
+    <Version>1.0.3</Version>
+    <FileVersion>1.1.2410.302</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
